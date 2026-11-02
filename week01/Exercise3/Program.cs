@@ -8,7 +8,8 @@ class Program
         // Console.WriteLine("Hello World! This is the Exercise3 Project.");
 
 
-        int magicNumber = 20;
+        Random randomNum = new Random();
+        int magicNumber = randomNum.Next(1, 101);
         int guess = -1;
 
         while (guess != magicNumber)
